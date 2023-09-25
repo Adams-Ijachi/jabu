@@ -50,3 +50,6 @@ To run the Todo Management System locally, follow these steps:
 5. **Mark as Completed**: Once a task is finished, mark it as completed. The task will be moved to the completed tasks section.
 
 
+## Database Diagram
+[Database Diagram](https://dbdiagram.io/d/Jabu-650e0d7effbf5169f055d4cb)
+
