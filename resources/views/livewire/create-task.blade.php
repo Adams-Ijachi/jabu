@@ -95,8 +95,8 @@
                 id="task_group"
                 name="task_group"
                 wire:model="task_group_id"
-                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
-                <option value="" disabled>--Select Task Group--</option>
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" >
+                <option value="" selected>--Select Task Group--</option>
                 @foreach($groups as $group)
                     <option value="{{$group->id}}">{{$group->name}}</option>
                 @endforeach
@@ -114,7 +114,7 @@
                 name="task_frequency"
                 wire:model="task_frequency_id"
                 class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-600 dark:border-gray-500 dark:placeholder-gray-400 dark:text-white" required>
-                <option value="" disabled>--Select Task Frequency--</option>
+                <option value="" selected>--Select Task Frequency--</option>
                 @foreach($frequencies as $frequency)
                     <option value="{{$frequency->id}}">{{$frequency->pattern}}</option>
                 @endforeach

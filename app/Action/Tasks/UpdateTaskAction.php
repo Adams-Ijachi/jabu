@@ -7,7 +7,6 @@ class UpdateTaskAction
 
         public function update(array $inputs)
         {
-
             $task = $inputs['task'];
             $task->name = $inputs['name'];
             $task->description = $inputs['description'];

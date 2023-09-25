@@ -21,7 +21,7 @@ class EditTask extends ModalComponent
     public string $end_date;
     public string $status;
     public int $iteration_count;
-    public int $task_group_id;
+    public int|null $task_group_id;
     public int $task_frequency_id;
     public Task $task;
 
