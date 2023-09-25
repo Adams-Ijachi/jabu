@@ -49,15 +49,4 @@ To run the Todo Management System locally, follow these steps:
 
 5. **Mark as Completed**: Once a task is finished, mark it as completed. The task will be moved to the completed tasks section.
 
-## Contributing
 
-If you'd like to contribute to the development of this project, please follow these guidelines:
-
-1. Fork the repository and create a new branch for your feature or bug fix.
-2. Make your changes and ensure the code follows the project's coding standards.
-3. Write tests to cover your code changes.
-4. Submit a pull request, explaining the changes and why they are necessary.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
